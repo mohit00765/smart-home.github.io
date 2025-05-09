@@ -1,0 +1,65 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow-x: hidden;
+  background-color: #000;
+  background-image: url('background.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 90%;
+  max-width: 720px;
+  text-align: center;
+  padding: 20px;
+  color: white;
+  backdrop-filter: blur(10px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.profile-img {
+  width: 90px;
+  height: 90px;
+  margin: 0 auto 15px;
+  background-image: url('profile.png');
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+}
+
+.container h2 {
+  font-size: 1.6em;
+  font-weight: bold;
+  margin: 0;
+}
+
+.container .info {
+  font-size: 1em;
+  color: #ddd;
+  margin-bottom: 70px;
+}
+
+.footer {
+  font-size: 0.8em;
+  color: #ddd;
+  margin-top: 20px;
+}
+
+.footer p {
+  margin: 0;
+}
